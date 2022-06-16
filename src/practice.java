@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class practice {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Please enter a number greater than 1");
+        System.out.print("Please enter a number greater than one ");
         double n = input.nextDouble();
 
         double counter = 0;
@@ -17,7 +17,7 @@ public class practice {
             sum += counter;
         }
     }
-    System.out.println(sum);
+    System.out.println("The sum of all factors of " + n + " is " + sum);
     }
 }
 
